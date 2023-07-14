@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "582629962429-sauj6vvs124o50t6o06f4tf7vtjslm7n.apps.googleusercontent.com",
+          "client_id": "582629962429-gbjuho36h9goen9top199gf4mp65217u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devniket.eatit",
+            "certificate_hash": "36bebaac461a3f6b2e3aa2114d10c0b83b72cf52"
+          }
+        },
+        {
+          "client_id": "582629962429-9vnnsfkofnf8sqio7ag7o2f27qebsmta.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,8 +35,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "582629962429-sauj6vvs124o50t6o06f4tf7vtjslm7n.apps.googleusercontent.com",
+              "client_id": "582629962429-9vnnsfkofnf8sqio7ag7o2f27qebsmta.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "582629962429-bl6puin2qsidr2k5r84ma4luetltc7ip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.devniket.eatit"
+              }
             }
           ]
         }

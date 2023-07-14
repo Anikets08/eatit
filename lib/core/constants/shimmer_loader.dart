@@ -12,8 +12,8 @@ class ShimmerLoaderWidet extends ConsumerWidget {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Shimmer.fromColors(
-          baseColor: Color.fromARGB(44, 177, 190, 255)!,
-          highlightColor: Color.fromARGB(85, 174, 204, 255)!,
+          baseColor:const Color.fromARGB(44, 177, 190, 255)!,
+          highlightColor:const Color.fromARGB(85, 174, 204, 255)!,
           child: SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
             child: Column(
@@ -21,7 +21,7 @@ class ShimmerLoaderWidet extends ConsumerWidget {
                 Container(
                   height: 200,
                   decoration: BoxDecoration(
-                    color: Colors.red,
+                    color: const Color.fromARGB(44, 177, 190, 255)!,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   width: double.infinity,
@@ -72,12 +72,12 @@ class ShimmerLoaderContainer extends ConsumerWidget {
       height: 200,
       child: Shimmer.fromColors(
         direction: ShimmerDirection.ltr,
-        baseColor: Color.fromARGB(44, 177, 190, 255)!,
-        highlightColor: Color.fromARGB(85, 174, 204, 255)!,
+        baseColor: const Color.fromARGB(44, 177, 190, 255)!,
+        highlightColor: const Color.fromARGB(85, 174, 204, 255)!,
         child: Container(
           height: 200,
           decoration: BoxDecoration(
-            color: Colors.red,
+            color: const Color.fromARGB(44, 177, 190, 255)!,
             borderRadius: BorderRadius.circular(10),
           ),
           width: double.infinity,
