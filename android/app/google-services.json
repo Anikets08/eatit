@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "582629962429-knd100ua1cuicmvhnjhno4356bgffls4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devniket.eatit",
+            "certificate_hash": "41db9789adc1f7511001562876da4be5086df5c8"
+          }
+        },
+        {
           "client_id": "582629962429-9vnnsfkofnf8sqio7ag7o2f27qebsmta.apps.googleusercontent.com",
           "client_type": 3
         }

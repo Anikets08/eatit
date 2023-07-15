@@ -40,7 +40,24 @@ class _ProfilePostGridState extends ConsumerState<ProfilePostGrid> {
               return const Center(
                 child: CupertinoActivityIndicator(),
               );
-            } else {
+            }
+            else if(snapshot.data == null){
+              return  Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: const [
+                    FaIcon(
+                      FontAwesomeIcons.images,
+                      size: 30,
+                    ),
+                    SizedBox(height: 10),
+                    Text('No Posts'),
+                  ],
+                ),
+              );
+            }
+            else {
               return (snapshot.data! as dynamic).docs.length == 0
                   ? Center(
                       child: Column(

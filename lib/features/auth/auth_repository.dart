@@ -73,6 +73,7 @@ class AuthRepository {
     } on FirebaseException catch (e) {
       throw e.message!;
     } catch (e) {
+      print(e.toString());
       return left(e.toString());
     }
   }
